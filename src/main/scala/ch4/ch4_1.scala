@@ -6,7 +6,7 @@ def incBy(l: List[Int], n: Int): List[Int] = {
 }
 
 // Exercise 4.2
-def gt(l: List[Int], n: Int): List[Int] = {\
+def gt(l: List[Int], n: Int): List[Int] = {
     l.filter(_ >= n)
 }
 
@@ -17,5 +17,5 @@ def append(l: List[Int], n: Int): List[Int] = {
 
 // Exercise 4.4
 def reverse(l: List[Int]): List[Int] = {
-    l.foldLeft()
+    l.foldLeft(List[Int]())((acc, i) => i :: acc)
 }
