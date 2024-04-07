@@ -1,8 +1,7 @@
 package ch3
 import scala.annotation.tailrec
 
-object ch3Exercises{
-    case class Student(name: String, height: Int)
+object ch3Ex extends Template {
     // Exercise 3.1
     def names(l: List[Student]): List[String] = l match {
         case Nil => Nil
