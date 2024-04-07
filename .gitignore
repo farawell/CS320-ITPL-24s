@@ -4,3 +4,4 @@ project/project/
 .DS_Store
 *.class
 *.log
+.bst/
